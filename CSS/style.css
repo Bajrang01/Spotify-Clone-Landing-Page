@@ -1,0 +1,420 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: proxima_nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h5 {
+    color: rgb(177, 174, 174);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: green;
+}
+
+.header {
+    background-color: black;
+    height: 80px;
+    position: relative;
+}
+
+.header-img {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 600px;
+    z-index: 0;
+}
+
+.spotify {
+    position: absolute;
+    left: 10%;
+    top: 10px;
+    font-weight: bold;
+}
+
+.premium {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    font-weight: bold;
+}
+
+.support {
+    position: absolute;
+    left: 57%;
+    top: 30px;
+    font-weight: bold;
+}
+
+.Download {
+    position: absolute;
+    left: 63%;
+    top: 30px;
+    font-weight: bold;
+}
+
+.span {
+    position: absolute;
+    left: 71%;
+    top: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.profile {
+    position: absolute;
+    left: 75%;
+    top: 30px;
+    font-weight: bold;
+}
+
+.second-container {
+    position: relative;
+    width: 100%;
+    background-color: rgb(235, 35, 191);
+    height: 600px;
+}
+
+.mobile {
+    position: absolute;
+    left: 15%;
+    top: 95px;
+    border: 6px solid white;
+    width: 267px;
+    height: 445px;
+    border-top: 60px solid white;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.black-box {
+    background-color: black;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 22%;
+    top: 125px;
+}
+
+.heading-one {
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 42%;
+    font-size: 64px;
+    font-weight: 1100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: -0.03em;
+    line-height: 1.15;
+}
+
+.second-link {
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 500px;
+    font-weight: bold;
+    position: absolute;
+    left: 41%;
+    top: 370px;
+}
+
+.third-container {
+    width: 100%;
+    background-color: white;
+    height: 700px;
+    position: relative;
+}
+
+.third-heading {
+    position: absolute;
+    left: 45%;
+    top: 80px;
+}
+
+.play {
+    width: 142px;
+    height: 142px;
+}
+
+.one {
+    position: absolute;
+    left: 15%;
+    top: 200px;
+    width: 15%;
+    height: 200px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.two {
+    position: absolute;
+    left: 35%;
+    top: 200px;
+    width: 15%;
+    height: 200px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.three {
+    position: absolute;
+    left: 55%;
+    top: 200px;
+    width: 15%;
+    height: 200px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.four {
+    position: absolute;
+    left: 75%;
+    top: 200px;
+    width: 15%;
+    height: 200px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.forth-container {
+    width: 100%;
+    background-color: rgb(147, 61, 155);
+    height: 500px;
+    position: relative;
+}
+
+.four-heading {
+    position: absolute;
+    left: 30%;
+    top: 160px;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+
+.fifth-container {
+    width: 100%;
+    background-color: white;
+    height: 600px;
+    position: relative;
+}
+
+.fifth-heading {
+    position: absolute;
+    left: 40%;
+    top: 50px;
+}
+
+.detail-one {
+    position: absolute;
+    left: 20%;
+    top: 170px;
+    cursor: pointer;
+    width: 60%;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.detail-one:hover {
+    background-color: whitesmoke;
+}
+
+.detail-two {
+    position: absolute;
+    left: 20%;
+    top: 220px;
+    cursor: pointer;
+    width: 60%;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.detail-two:hover {
+    background-color: whitesmoke;
+}
+
+.detail-three {
+    position: absolute;
+    left: 20%;
+    top: 270px;
+    cursor: pointer;
+    width: 60%;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.detail-three:hover {
+    background-color: whitesmoke;
+}
+
+.detail-four {
+    position: absolute;
+    left: 20%;
+    top: 320px;
+    cursor: pointer;
+    width: 60%;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.detail-four:hover {
+    background-color: whitesmoke;
+}
+
+.sixth-container {
+    width: 100%;
+    background-color: rgb(165, 76, 168);
+    height: 600px;
+    position: relative;
+}
+
+.sixth-link {
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 500px;
+    font-weight: bold;
+    position: absolute;
+    left: 41%;
+    top: 290px;
+}
+
+.sixth-heading {
+    color: white;
+    position: absolute;
+    left: 28%;
+    top: 120px;
+    font-size: 80px;
+}
+
+.seventh-container {
+    width: 100%;
+    background-color: black;
+    padding: 50px 0px;
+    height: 450px;
+    position: relative;
+    line-height: 3;
+}
+
+.last-one {
+    position: absolute;
+    left: 25%;
+    width: 10%;
+    height: 100px;
+}
+
+.last-two {
+    position: absolute;
+    left: 38%;
+    width: 10%;
+    height: 100px;
+}
+
+.last-three {
+    position: absolute;
+    left: 52%;
+    width: 10%;
+    height: 100px;
+}
+
+.last-four {
+    position: absolute;
+    left: 10%;
+    top: 83%;
+    height: 100px;
+    font-size: 12px;
+}
+
+.last-img {
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    left: 5%;
+    top: 60px;
+}
+
+.last {
+    margin: 20px;
+    color: rgb(123, 116, 116);
+}
+
+.one-more {
+    margin-left: 480px;
+}
+
+.copyright {
+    position: absolute;
+    left: 75%;
+    top: 85%;
+}
+
+hr {
+    width: 30%;
+    border-bottom: none;
+}
+
+.hr-one {
+    position: absolute;
+    top: 220px;
+    left: 20%;
+}
+
+.hr-two {
+    position: absolute;
+    top: 270px;
+    left: 20%;
+}
+
+.hr-three {
+    position: absolute;
+    top: 320px;
+    left: 20%;
+}
+
+.para-one {
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    background-color: black;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+.para-two {
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    background-color: black;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+.para-three {
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    background-color: black;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+.para-four {
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    background-color: black;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
